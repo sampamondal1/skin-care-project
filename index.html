@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- navigation bar -->
+        <nav>
+            <div class="nav_logo">
+                <img src="images/logo.png" alt="">
+                <i class="fa-solid fa-bars toggle" onclick="display()"></i>
+
+            </div>
+            <div class="nav_list">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="customize.html">Customize</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav_search">
+                <input type="search" name="search" id="nav_search" placeholder="search"><i class="fa-solid fa-magnifying-glass glass1"></i>
+    
+    
+            </div>
+        </nav>
+        
+        <!-- banner -->
+        <div class="banner">
+            <div class="slides" id="slider1">
+                <img src="images/1.jpg" alt="">
+            </div>
+            <div  class="slides" id="slider2">
+                <img src="images/2.jpg" alt="">
+            </div>
+            <div  class="slides" id="slider3">
+                <img src="images/3.jpg" alt="">
+            </div>
+            <!-- <div class="button_con">
+                <button type="submit">Contact Us</button>
+            </div> -->
+            <div class="button">
+                <div class="prev">
+                    <i class="fa-solid fa-chevron-left" onclick="showSlide(-1)"></i>
+
+                </div>
+                <div class="next">
+                    <i class="fa-solid fa-chevron-right" onclick="showSlide(1)"></i>
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <!-- why us -->
+        <div class="why_us">
+            <div class="w_head">
+                <p>WHY US</p>
+
+            </div>
+            <div class="w_main">
+                <p>To us, the concept of “flawless beauty” is nothing new as we have been skin conscious, mindful and responsible formulators since day one. The healthcare of the skin has been the primary concern since our inception. We create safe and efficacious formulae and only utilize ingredients that meet our exceedingly high quality which in turn bring out amazing outcomes</p>
+
+            </div>
+            <div class="w_img">
+                <div class="w_card">
+                    <img src="images/w_2.jpg" alt="img" width="300" >
+                    <button><a href="about.html">Know More</a></button>
+                </div>
+                <div class="w_card">
+                    <img src="images/w1.webp" alt="img" width="350">
+                    <button ><a href="about.html">Know More</a></button>
+                </div>
+                <div class="w_card">
+                    <img src="images/w_3.jpeg" alt="img">
+                    <button><a href="about.html">Know More</a></button>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- skin type -->
+        <section class="skin_type">
+            <div class="type_head">
+                <p>To Know Your Skin Type</p>
+            </div>
+            <div class="type_main">
+                <p>Do know your skin type , so there are many skin tone type.To know your skin type  what type of skin you have here are some examples</p>
+
+            </div>
+            <div class="type_card">
+                <div class="card">
+                <div class="card_img">
+                    <img src="images/normal.jpg" alt="normal">
+                    <p>Normal skin</p>
+                </div>
+                <div class="card_text">
+                    <p>Normal Skin</p>
+                    <p>Normal skin is balanced—feeling neither too dry nor too oily. It is not prone to breakouts, flakiness</p>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card_img">
+                    <img src="images/combination.jpeg" alt="" width="600">
+                    <p>Combination skin</p>
+                    
+                </div>
+                <div class="card_text">
+                    <p>Comination Skin</p>
+                    <p>Combination skin includes areas that are dry as well as oily—with the T-zone commonly being oily, </p>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card_img">
+                    <img src="images/dry.jpeg" alt="" width="800">
+                    <p>Dry Skin</p>
+
+                </div>
+                <div class="card_text">
+                    <p>Dry Skin</p>
+                    <p>Dry Skin generally produces less natural oils than other types of skin. </p>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card_img">
+                    <img src="images/sensitive.avif" alt="">
+                    <p>Sensitive Skin</p>
+
+                </div>
+                <div class="card_text">
+                    <p>Sensitive Skin</p>
+                    <p>Sensitive Skin is often referred to as a skin type, but it's possible to have oily sensitive skin, dry sensitive skin</p>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card_img">
+                    <img src="images/oily.jpg" alt="">
+                    <p>Oily Skin</p>
+
+                </div>
+                <div class="card_text">
+                    <p>Oily Skin</p>
+                    <p>Oily Skin typically appears shiny or greasy in the T-zone area. You may also notice enlarged pores on your nose,</p>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                </div>
+
+            </div>
+
+      </section>
+      <section class="contact">
+        <div class="form">
+            <!-- <div class="form_img"> -->
+                <!-- <div class="img"> -->
+                <!-- <img src="images/f_1.jpeg" alt="" width="200" height="200"> -->
+                <!-- <img src="images/f_2.jpeg" alt="" > -->
+                <!-- </div> -->
+                  <!-- <div class="img">
+                    <img src="images/f_3.jpeg" alt="">
+                    <img src="images/f_4.jpeg" alt="">
+
+                  </div> -->
+            <!-- </div> -->
+            <div class="login">
+                
+                <h4>What are the 7 steps of skincare?</h4>
+                   <p>Skin Care Routine Order: The Proper Steps of a Skin Care Routine and Why Each Step Matters</p>
+                
+                 <ul>
+                    <li>Step 1: Cleanser. The first step to your skincare routine is always cleansing</li>
+                    <li>Step 2: Toner</li>
+                    <li>Step 3: Spot Treatments or Acne Treatments</li>
+                    <li>Step 4: Antioxidant Serum</li>
+                    <li>Step 5: Eye Cream</li>
+                    <li>Step 6: Moisturizer</li>
+                    <li>Step 7: Sunscreen</li>
+                 </ul>
+                
+
+            </div>
+           
+
+
+        </div>
+
+      </section>
+    </main>
+    <footer>
+
+        <div class="row">
+
+            <!-- col1------- -->
+            <div class="col">
+            
+                <img src="images/logo.png" alt="">
+            
+            <div class="col_body">
+                <p>
+                   <p class="text">Skin care or skincare is a range of practices that support skin integrity, enhance its appearance, and relieve skin conditions</p>
+
+                </p>
+                
+            </div>
+            </div>
+
+               <!-- col2-------- -->
+            <div class="col">
+                <!-- <div class="col_head"> -->
+                    
+                
+                <div class="col_body">
+                    <h2>Quick link</h2>
+                    <p>
+                      <a href="index.html">Home</a>
+                      <a href="about.html">About</a>
+                      <a href="service.html">Service</a>
+                      <a href="customize.html">Customize</a>
+                      <a href="contact.html">Contact</a> 
+    
+                    </p>
+                    
+                </div>
+            
+                </div>
+                       
+
+                    <!-- col3 -->
+                <div class="col">
+                   
+                    <div class="col_body">
+
+                        <div class="search">
+                            <input type="search" name="search" id="" placeholder="search"><i class="fa-solid fa-magnifying-glass glass"></i>
+                
+                
+                        </div>
+                        
+                    </div>
+                    </div>
+
+        </div>
+        <br><br><br>
+        <hr>
+        <div class="row2">
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+
+
+            
+        </div>
+        <span>&copy;copy right by kinz</span>
+      
+        </div>
+        
+       
+    </footer>
+
+
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
